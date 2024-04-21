@@ -73,6 +73,7 @@ namespace UITest {
             
             CUIButtonInput buttonInput = buttonObj.AddComponent<CUIButtonInput> ();
             buttonInput.inputType = CUIButtonInput.InputType.Menu;
+            buttonInput.sendsOnClickOnConfirm = true;
 
             CUIMenuAudioTrigger audioTrigger = buttonObj.AddComponent<CUIMenuAudioTrigger> ();
             audioTrigger.clipType = CUIMenuAudioTrigger.AudioClipType.Confirm;
