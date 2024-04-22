@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net35</TargetFramework>
     <AssemblyName>UITest</AssemblyName>
-    <Description>My first plugin</Description>
-    <Version>1.0.0</Version>
+    <Description>Adds "hello world" to the console</Description>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -17,6 +17,19 @@
 
     <Reference Include="Assembly-CSharp">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\DyingSun\dyingsun_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Nebula">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\DyingSun\BepInEx\plugins\Nebula\Nebula.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Nebula.UI">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\DyingSun\BepInEx\plugins\Nebula\Nebula.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Nebula.Utils">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\DyingSun\BepInEx\plugins\Nebula\Nebula.Utils.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
   
